@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/topFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_color"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/mainFrame"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/header_cover" >
+
+            <ImageView
+                android:id="@+id/frameImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:contentDescription="@string/app_name"
+                android:padding="2dp"
+                android:src="@drawable/logo2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameBorder"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/secondary_color" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/header_cover" >
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/contentScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:id="@+id/contentArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="@string/welcome_label"
+                    android:textColor="@color/primary_color"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/gedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/default_button"
+                android:text="@string/theInitialGedLabel"
+                android:textSize="24sp"
+                android:width="70dp" android:textColor="@color/selector_text_inverse"/>
+
+            <LinearLayout
+                android:id="@+id/topRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minHeight="100dp" >
+
+                <Button
+                    android:id="@+id/mathButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/default_button"
+                    android:text="@string/math_label"
+                    android:textSize="24sp" android:textColor="@color/selector_text_inverse" android:width="70dp" android:layout_marginRight="5dp"/>
+
+                <Button
+                    android:id="@+id/scienceButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/default_button"
+                    android:text="@string/science_label"
+                    android:textSize="24sp"
+                    android:width="70dp" android:textColor="@color/selector_text_inverse"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottomRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:minHeight="100dp" >
+
+                <Button
+                    android:id="@+id/literacyButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/default_button"
+                    android:text="@string/readwrite_label"
+                    android:textSize="24sp"
+                    android:width="70dp" android:textColor="@color/selector_text_inverse"/>
+
+                <Button
+                    android:id="@+id/socialScienceButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/default_button"
+                    android:text="@string/socialstudies_label"
+                    android:textSize="24sp"
+                    android:width="70dp" android:textColor="@color/selector_text_inverse"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottomRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="@string/more_label"
+                    android:textColor="@color/primary_color"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/moreText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="@string/footer"
+                    android:textColor="@color/copyright_footer"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

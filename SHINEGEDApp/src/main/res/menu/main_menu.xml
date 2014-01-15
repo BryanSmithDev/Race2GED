@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/locations" android:title="@string/location_label" android:icon="@android:drawable/ic_menu_compass"></item>
+    <item android:id="@+id/rdysetgo" android:title="@string/rdysetgo_label" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/freeresources" android:title="@string/freeresources_label" android:icon="@android:drawable/ic_menu_info_details"></item><item android:id="@+id/contact" android:title="@string/contact_label" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/dev_team" android:title="@string/devteam_label" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/sources" android:title="@string/sources_label" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/feedback" android:title="@string/feedback_label" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/exit" android:title="@string/exit_label" android:icon="@android:drawable/ic_menu_preferences"></item>
+    
+    
+
+</menu>

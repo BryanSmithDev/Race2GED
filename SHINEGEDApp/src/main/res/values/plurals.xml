@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <plurals name="wrong_selection_message">
+        <item quantity="one">You selected the wrong answer. You have 1 attempt remaining!</item>
+        <item quantity="other">You selected the wrong answer. You have %1$i attempts remaining!</item>
+    </plurals>
+</resources>

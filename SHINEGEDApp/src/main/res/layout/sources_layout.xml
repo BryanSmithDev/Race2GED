@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/topFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@color/primary_color">
+
+        <FrameLayout
+            android:id="@+id/mainFrame"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/header_cover" >
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/sources_label"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/content_color"
+                android:textSize="24sp"
+                android:typeface="normal" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameBorder"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/secondary_color" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:background="@drawable/header_cover">
+            </FrameLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/contentScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" android:fadingEdge="vertical" android:fadingEdgeLength="25dp">
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/contentArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+
+
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/ace"
+                android:textColor="@color/content_color"
+                android:textSize="24sp" android:gravity="center"/>
+
+
+
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/mhc"
+                android:textColor="@color/content_color"
+                android:textSize="24sp" android:gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/background_color"
+              android:orientation="vertical">
+
+    <FrameLayout
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_color">
+
+        <FrameLayout
+                android:id="@+id/frameLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/header_cover">
+
+            <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="@string/math_multiplechoice_label"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/content_color"
+                    android:textSize="24sp"
+                    android:typeface="normal"/>
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/secondary_color">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/header_cover">
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+        <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <Button
+                    android:id="@+id/additionalInfo_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/default_button"
+                    android:textColor="@color/selector_text_inverse"/>
+
+            <TextView
+                    android:id="@+id/multi_qp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/question_part_1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/content_color"
+                    android:textSize="24sp"
+                    android:typeface="normal"/>
+
+            <ImageView
+                android:id="@+id/multi_qimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@string/multipleChoiceImage"
+                android:src="@drawable/trans" />
+
+            <TextView
+                    android:id="@+id/multi_qp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/question_part_2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/content_color"
+                    android:textSize="24sp"
+                    android:typeface="normal"/>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="3.5dp"
+                        android:layout_marginTop="3.5dp">
+
+                    <Button
+                            android:id="@+id/multi_firstchoice"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/choice_a_button"/>
+
+
+                    <TextView
+                            android:id="@+id/multi_first"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/medium_text"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/content_color"
+                            android:textSize="14sp"
+                            android:typeface="normal"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="3.5dp"
+                        android:layout_marginTop="3.5dp">
+
+                    <Button
+                            android:id="@+id/multi_secondchoice"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/choice_b_button"/>
+
+
+                    <TextView
+                            android:id="@+id/multi_second"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/medium_text"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/content_color"
+                            android:textSize="14sp"
+                            android:typeface="normal"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="3.5dp"
+                        android:layout_marginTop="3.5dp">
+
+                    <Button
+                            android:id="@+id/multi_thirdchoice"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/choice_c_button"/>
+
+
+                    <TextView
+                            android:id="@+id/multi_third"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/medium_text"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/content_color"
+                            android:textSize="14sp"
+                            android:typeface="normal"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="3.5dp"
+                        android:layout_marginTop="3.5dp">
+
+                    <Button
+                            android:id="@+id/multi_fourthchoice"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/choice_d_button"/>
+
+
+                    <TextView
+                            android:id="@+id/multi_fourth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/medium_text"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/content_color"
+                            android:textSize="14sp"
+                            android:typeface="normal"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="3.5dp"
+                        android:layout_marginTop="3.5dp">
+
+                    <Button
+                            android:id="@+id/multi_fifthchoice"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/choice_e_button"/>
+
+
+                    <TextView
+                            android:id="@+id/multi_fifth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/medium_text"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/content_color"
+                            android:textSize="14sp"
+                            android:typeface="normal"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                    android:id="@+id/multi_chkanswer"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/default_button"
+                    android:textColor="@color/selector_text_inverse"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
