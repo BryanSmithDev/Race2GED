@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog"
+              android:layout_width="290dp"
+              android:layout_height="wrap_content"
+              android:background="@color/secondary_color"
+              android:orientation="vertical"
+              android:padding="4dp">
+
+    <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/popup_title_background">
+
+        <TextView
+                android:id="@+id/titleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/popup_title_background"
+                android:padding="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/content_color"
+                android:text="@string/do_you_want_to_continue"/>
+
+        <FrameLayout
+                android:id="@+id/closeFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp">
+
+            <ImageButton
+                    android:id="@+id/closeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@null"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/window_close"/>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_color"
+            android:minHeight="75dp"
+            android:minWidth="75dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@android:drawable/ic_delete"
+                android:visibility="gone"/>
+
+
+        <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/not_official_disclaimer"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/content_color"
+                android:textSize="16dp"
+                android:typeface="normal"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_color">
+
+
+        <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+
+
+            <Button
+                    android:id="@+id/yesButton"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/default_button"
+                    android:focusableInTouchMode="false"
+                    android:text="@android:string/yes"
+                    android:textColor="@color/selector_text_inverse"
+                    android:textSize="16sp"/>
+
+
+            <Button
+                    android:id="@+id/noButton"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/default_button"
+                    android:focusableInTouchMode="false"
+                    android:text="@android:string/no"
+                    android:textColor="@color/selector_text_inverse"
+                    android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- 
+                                                                                                             
+   d888888o.   8888888 8888888888 8 888888888o.    8 8888 b.             8      ,o888888o.       d888888o.   
+ .`8888:' `88.       8 8888       8 8888    `88.   8 8888 888o.          8     8888     `88.   .`8888:' `88. 
+ 8.`8888.   Y8       8 8888       8 8888     `88   8 8888 Y88888o.       8  ,8 8888       `8.  8.`8888.   Y8 
+ `8.`8888.           8 8888       8 8888     ,88   8 8888 .`Y888888o.    8  88 8888            `8.`8888.     
+  `8.`8888.          8 8888       8 8888.   ,88'   8 8888 8o. `Y888888o. 8  88 8888             `8.`8888.    
+   `8.`8888.         8 8888       8 888888888P'    8 8888 8`Y8o. `Y88888o8  88 8888              `8.`8888.   
+    `8.`8888.        8 8888       8 8888`8b        8 8888 8   `Y8o. `Y8888  88 8888   8888888     `8.`8888.  
+8b   `8.`8888.       8 8888       8 8888 `8b.      8 8888 8      `Y8o. `Y8  `8 8888       .8' 8b   `8.`8888. 
+`8b.  ;8.`8888       8 8888       8 8888   `8b.    8 8888 8         `Y8o.`     8888     ,88'  `8b.  ;8.`8888 
+ `Y8888P ,88P'       8 8888       8 8888     `88.  8 8888 8            `Yo      `8888888P'     `Y8888P ,88P' 
+
+
+ -->
+<resources>
+    <!--=========================================================================================================================
+               ___                                   _     ___   _           _
+              / __|  ___   _ _    ___   _ _   __ _  | |   / __| | |_   _ _  (_)  _ _    __ _   ___
+             | (_ | / -_) | ' \  / -_) | '_| / _` | | |   \__ \ |  _| | '_| | | | ' \  / _` | (_-<
+              \___| \___| |_||_| \___| |_|   \__,_| |_|   |___/  \__| |_|   |_| |_||_| \__, | /__/
+                                                                                       |___/
+    ===========================================================================================================================-->
+    <string name="app_name">Race2GED</string>
+    <string name="cite">INFORMATION BULLETIN ON THE TESTS OF GENERAL EDUCATIONAL DEVELOPMENT\n
+        General Educational Development Testing Service®\n
+        American Council on Education
+    </string>
+    <string name="not_official_disclaimer">This is not an Official GED® Practice Test. Although it
+        will not count toward
+        a scholarship for the GED® Test in Lee, Scott and Wise Counties or the city of Norton, VA,
+        but it will give you a good
+        idea of areas you may need to review.
+    </string>
+
+    <string name="external_website">This link takes you to an external website. An internet
+        connection is required to view this information. \n Are you sure you want to continue?
+    </string>
+
+    <string name="disclaimer_text">GED® and GED Testing Service® are registered trademarks of the
+        American Council on Education and may not be used or reproduced without express written
+        permission. The GED® and GED Testing Service® brands are administered by GED Testing
+        Service® LLC under license from the American Council on Education.
+    </string>
+    <string name="volume">Volume:</string>
+    <string name="do_you_want_to_continue">Do you want to continue?</string>
+    <string name="versionLbl">Version:</string>
+    <string name="outdated_title">2014 GED® Test Content</string>
+    <string name="outdated_message">Version 2.0 of the Race2GED App is currently in development with
+    enhanced features and content centered around the new 2014 GED® Test. Currently this app is centered
+    around the 2002 GED® Test and as such will be outdated until the release of version 2.0. Please keep that
+    in mind and thank you for your patience.
+    </string>
+
+
+    <!--=========================================================================================================================
+                           ___                _                 _       _   _
+                          / __|  ___   _ _   | |_   __ _   __  | |_    | | | |  ___
+                         | (__  / _ \ | ' \  |  _| / _` | / _| |  _|   | |_| | (_-<
+                          \___| \___/ |_||_|  \__| \__,_| \__|  \__|    \___/  /__/
+
+    ===========================================================================================================================-->
+    <string name="tollFreeLabel">
+        <b>Toll Free:</b>
+        %1$s
+    </string>
+    <string name="tollFree">877&#8211;RACE2GED (877&#8211;722&#8211;3243)</string>
+    <string name="localPhoneLabel">
+        <b>Local Number:</b>
+        %1$s
+    </string>
+    <string name="localPhone">276&#8211;386&#8211;2433</string>
+    <string name="footer_2_1">Regional Adult Education</string>
+    <string name="footer_2_2">Program of Lee, Scott, Wise and Norton Public Schools</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+    <string name="website">Website</string>
+
+
+    <!--=========================================================================================================================
+                          __  __          _              _          _     _         _   _
+                         |  \/  |  __ _  (_)  _ _       /_\    __  | |_  (_) __ __ (_) | |_   _  _
+                         | |\/| | / _` | | | | ' \     / _ \  / _| |  _| | | \ V / | | |  _| | || |
+                         |_|  |_| \__,_| |_| |_||_|   /_/ \_\ \__|  \__| |_|  \_/  |_|  \__|  \_, |
+                                                                                              |__/
+    ===========================================================================================================================-->
+    <string name="math_label">Math</string>
+    <string name="readwrite_label">Language Arts</string>
+    <string name="science_label">Science</string>
+    <string name="socialstudies_label">Social Studies</string>
+    <string name="theGedLabel">The GED® Test</string>
+    <string name="theInitialGedLabel">The GED® Tests</string>
+    <string name="more_label">For more options press the menu button.</string>
+    <string name="welcome_label">Welcome, please select a subject:</string>
+    <string name="footer">Regional Adult Education\nProgram of Lee, Scott, Wise and Norton Public
+        Schools
+    </string>
+
+
+    <!--=========================================================================================================================
+                              __  __                         _             _            _
+                             |  \/  |  ___   _ _    _  _    | |     __ _  | |__   ___  | |  ___
+                             | |\/| | / -_) | ' \  | || |   | |__  / _` | | '_ \ / -_) | | (_-<
+                             |_|  |_| \___| |_||_|  \_,_|   |____| \__,_| |_.__/ \___| |_| /__/
+
+    ===========================================================================================================================-->
+    <string name="location_label">Free Classes</string>
+    <string name="rdysetgo_label">Free Testing</string>
+    <string name="freeresources_label">Free Resources</string>
+    <string name="tour_label">Tour</string>
+    <string name="contact_label">Contact Us</string>
+    <string name="devteam_label">Developers</string>
+    <string name="exit_label">Exit</string>
+    <string name="info_label">Info</string>
+    <string name="back_label">Back</string>
+    <string name="vidtest_Label">Videos and Testimonials</string>
+    <string name="sources_label">Sources</string>
+
+
+    <!--=========================================================================================================================
+                                         ______            _ _                _
+                                        |  ____|          | | |              | |
+                                        | |__ ___  ___  __| | |__   __ _  ___| | __
+                                        |  __/ _ \/ _ \/ _` | '_ \ / _` |/ __| |/ /
+                                        | | |  __/  __/ (_| | |_) | (_| | (__|   <
+                                        |_|  \___|\___|\__,_|_.__/ \__,_|\___|_|\_\
+
+     ===========================================================================================================================-->
+    <string name="feedback_label">Feedback</string>
+    <string name="feedback_info">Found an error or bug? Have a suggestion or idea? Submit it
+        below!
+    </string>
+    <string name="email">
+        <b>Your Email:</b>
+    </string>
+    <string name="name">
+        <b>Your Name:</b>
+    </string>
+    <string name="email_content">
+        <b>Email Body:</b>
+    </string>
+    <string name="send">
+        <b>Send</b>
+    </string>
+
+
+    <!--=========================================================================================================================
+                          ___                                        _             _            _
+                         / __|  ___   _  _   _ _   __   ___   ___   | |     __ _  | |__   ___  | |  ___
+                         \__ \ / _ \ | || | | '_| / _| / -_) (_-<   | |__  / _` | | '_ \ / -_) | | (_-<
+                         |___/ \___/  \_,_| |_|   \__| \___| /__/   |____| \__,_| |_.__/ \___| |_| /__/
+
+    ===========================================================================================================================-->
+    <string name="ace">American Council on Education, GED Testing Service®</string>
+    <string name="mhc">McGraw-Hill Companies, Online Learning Center</string>
+
+
+    <!--=========================================================================================================================
+                             __  __       _ _   _       _            _____ _           _
+                            |  \/  |     | | | (_)     | |          / ____| |         (_)
+                            | \  / |_   _| | |_ _ _ __ | | ___     | |    | |__   ___  _  ___ ___
+                            | |\/| | | | | | __| | '_ \| |/ _ \    | |    | '_ \ / _ \| |/ __/ _ \
+                            | |  | | |_| | | |_| | |_) | |  __/    | |____| | | | (_) | | (_|  __/
+                            |_|  |_|\__,_|_|\__|_| .__/|_|\___|     \_____|_| |_|\___/|_|\___\___|
+                                                 | |
+                                                 |_|
+    ===========================================================================================================================-->
+    <string name="enter_answer">Enter Your Answer</string>
+    <string name="choose_answer">Choose an Answer</string>
+
+    <string name="no_selection_title">Opps!</string>
+    <string name="no_selection_yes_button">OK</string>
+    <string name="no_selection_message">You forgot to select an answer.</string>
+
+    <string name="correct_selection_title">Good Job!</string>
+    <string name="correct_selection_yes_button">Next Question</string>
+    <string name="correct_selection_message">You selected the correct answer.</string>
+
+    <string name="wrong_selection_title">Try Again!</string>
+    <string name="wrong_selection_yes_button">Try Again</string>
+
+
+    <string name="max_attempts_title">Max Attempts Reached!</string>
+    <string name="max_attempts_yes_button">Next Question</string>
+    <string name="max_attempts_message">Correct Answer:\n\n" %1$s</string>
+
+    <string name="selection_error_title">Error!</string>
+    <string name="selection_error_yes_button">Reload Question</string>
+    <string name="selection_error_message">There was an error generating results.</string>
+
+    <string name="completed_questions_title">No More Questions!</string>
+    <string name="completed_questions_yes_button">Restart Test</string>
+    <string name="completed_questions_no_button">Exit Test</string>
+    <string name="completed_questions_message">You completed all the questions</string>
+
+    <string name="question_part_1">Question Part 1</string>
+    <string name="question_part_2">Question Part 2</string>
+    <string name="medium_text">Medium Text</string>
+    <string name="multipleChoiceImage">multipleChoiceImage</string>
+
+
+    <!--=========================================================================================================================
+                                              __  __          _     _
+                                             |  \/  |  __ _  | |_  | |_
+                                             | |\/| | / _` | |  _| | ' \
+                                             |_|  |_| \__,_|  \__| |_||_|
+
+    ===========================================================================================================================-->
+    <string name="mathGuidelinesLabel">Math Guidelines</string>
+    <string formatted="false" name="mathGuidelines_info">
+        The GED® Mathematics Test is divided into two parts, each containing 25 questions. The parts
+        are equally weighted.
+        On Part 1 of the test you may use the Casio fx-60 calculator to help you compute your
+        answers. Use of the calculator
+        is not permitted on Part 2 of the Mathematics Test.\n
+        \n
+        The following areas are tested on the Mathematics Test:\n
+        ● Number Operations and Number Sense: 20% - 30%\n
+        ● Measurement and Geometry: 20% - 30%\n
+        ● Data Analysis, Statistics, and Probability: 20% - 30%\n
+        ● Algebra, Functions, and Patterns: 20% - 30%\n
+        \n
+        80% of the questions are multiple choice. The remaining 20% of the answers are calculated
+        and entered in an alternate
+        format into a standard grid or coordinate plane.\n
+        \n
+        A total of 90 minutes is allowed for the GED® Mathematics Test – 45 minutes for Part I and
+        45 minutes for Part II. A
+        formula sheet, containing all the formulas that might be needed, is provided.
+    </string>
+    <string name="mathAltGuidelinesLabel">Alternate-Format Guidelines</string>
+    <string formatted="false" name="mathAltGuidelines_info">
+        On the Math portion of the GED® Test, 20% of the questions will require you to calculate
+        your own answer, record that answer on
+        a grid, and fill in the corresponding circles on the grid. Both Parts I and II will have
+        these items.\n
+        \n
+        When using the standard grid:\n
+        ● Begin in any column that will allow your entire answer to be entered.\n
+        ● Write your answer in the boxes on the top row, including decimals and the slash for a
+        fraction bar.\n
+        ● In the column beneath the number or symbol that you have written into your answer, fill in
+        the bubble representing that number or symbol.\n
+        ● Leave any unused column blank.\n
+        \n
+        Remember:\n
+        ● Your answer sheet will be machine scored, so the circles must be filled in correctly.\n
+        ● Mark only one circle in each column.\n
+        ● No answer will be a negative number\n
+        ● Mixed numbers must be gridded as improper fractions or decimals. For example, 1 ½ would be
+        gridded as either 3/2 or 1.5.\n
+        ● Decimal numbers may be entered with or without a leading zero. For example, either 0.5 or
+        .5 would be an acceptable answer. \n
+    </string>
+    <string name="math_multiplechoice_label">Multiple Choice Practice</string>
+    <string name="math_cat_heading">Select your category</string>
+    <string name="math_altformat_label">Alternate-Format</string>
+
+
+    <!--=========================================================================================================================
+                                              ___        _
+                                             / __|  __  (_)  ___   _ _    __   ___
+                                             \__ \ / _| | | / -_) | ' \  / _| / -_)
+                                             |___/ \__| |_| \___| |_||_| \__| \___|
+
+    ===========================================================================================================================-->
+    <string name="scienceGuidelinesLabel">Science Guidelines</string>
+    <string formatted="false" name="scienceGuideLines_info">
+        The GED® Science Test consists of 50 multiple choice questions from the following content
+        areas:\n
+        ● Earth and Space Science: 20%\n
+        ● Life Science: 45%\n
+        ● Physical Science(Physics and Chemistry): 35%\n
+        \n
+        The questions on the GED® Science Test require you to understand, interpret, or apply
+        information that
+        is provided on the test or that is learned through life experience. The information may be
+        presented
+        in a paragraph, chart, table, graph, map, or figure.\n
+        \n
+        The Science Test must be completed in 80 minutes.
+    </string>
+
+
+    <!--=========================================================================================================================
+                              _                                                          _           _
+                             | |     __ _   _ _    __ _   _  _   __ _   __ _   ___      /_\    _ _  | |_   ___
+                             | |__  / _` | | ' \  / _` | | || | / _` | / _` | / -_)    / _ \  | '_| |  _| (_-<
+                             |____| \__,_| |_||_| \__, |  \_,_| \__,_| \__, | \___|   /_/ \_\ |_|    \__| /__/
+                                                  |___/                |___/
+
+    ===========================================================================================================================-->
+    <string name="writingGuideLinesLabel">Writing Guidelines</string>
+    <string formatted="false" name="writingGuidelines_info">
+        The GED® Language Arts, Writing Test has two parts.\n
+        \n
+        Part I \n
+        \n
+        This part contains 50 multiple choice questions that require you to revise and edit
+        documents. There are three types of questions:\n
+        ● Correction\n
+        ● Revision\n
+        ● Construction Shift\n
+        \n
+        The questions cover the following content areas:\n
+        ● Organization: 15% &#8211; requiring restructuring paragraphs or ideas within paragraphs,
+        identifying topic sentences, and creating unity
+        and coherence in the document.\n
+        ● Sentence Structure: 30% &#8211; Dealing with correcting sentence fragments, run&#8211;on
+        sentences, comma splices, improper coordination and
+        subordination, misplaced modifiers, and lack of parallel structure.\n
+        ● Usage: 30% &#8211; Consisting of correcting errors in subject&#8211;verb agreement, verb
+        tense, and pronoun reference.\n
+        ● Mechanics: 25% &#8211; Including correcting errors in capitalization, punctuation, and
+        spelling of possessives, contractions, and
+        homonyms.\n
+        \n
+        This part of the GED® Language Arts, Writing Test has a time allowance of 75 minutes.\n
+        \n
+        Part II\n
+        \n
+        This part is the actual writing of an essay about an issue or subject of general interest.
+        The essay topic assigned to you will require
+        that you present you opinion, or explain your views about the topic. You will have 45
+        minutes to plan, write, and revise your essay.
+        You will be given scrap paper for your notes, outline, and first draft. The GED® answer
+        booklet has two pages of lined paper on which you
+        will write your final essay.\n
+        \n
+        Scoring the Essay\n
+        \n
+        Two trained readers will score your essay on the basis of well&#8211;focused main points,
+        clear organization , Specific development of ideas,
+        control of sentence structure, grammar, word choice, and spelling.\n
+        \n
+        Each reader will score your essay on a 4&#8211;point scale, and the scores will be averaged
+        to determine your final score. A minimum score of
+        2 is required on essay in order to pass the GED® Writing test.
+    </string>
+    <string name="loa_label">Letter of Application</string>
+    <string name="loa_data">
+        June 24, 2002\n
+        \n
+        Jonathan Quinn\n
+        Employment Director\n
+        Capital City Gardening Services\n
+        4120 Wisconsin Ave., NW\n
+        Washington, DC 20016\n
+        \n
+        Dear Mr. Quinn:\n
+        \n
+        (A)\n
+        \n
+        (1) I would like to apply for the landscape supervisor position advertised in the Sunday,
+        June 23rd edition of the Washington Post. (2) My work experience
+        and education combined with your need for an experienced landscape supervisor have resulted
+        in a relationship that would profit both parties. (3) In May, I
+        graduated from Prince William Community College. (4) Graduating with an associate of arts
+        degree in horticulture. (5) My concentration within the program was
+        designing gardens and choosing the appropriate plants for particular soils and regions. (6)
+        I have also had considerable supervising experience. (7) For several
+        years, I have worked with a local company, Burke Nursery and Garden Center, and have been
+        responsible for supervising the four members of the planting staff.\n
+        \n
+        (B)\n
+        \n
+        (8) Our community knows that Capital City Gardening Services is a company that does
+        excellent work and strives hard to meet the demands of its clients. (9) As my
+        references will attest, I am a diligent worker and have the respect of both my coworkers and
+        my customers. (10) I will be, as a landscape supervisor at your firm,
+        able to put to use the skills and knowledge that I have obtained from my professional career
+        and education. (11) I have included a copy of my resume, which details
+        my principal interests education, and past work experience. (12) I have also included
+        photographs of the landscape projects I havesupervised as well as drawings of
+        proposed projects.\n
+        \n
+        (C)\n
+        \n
+        (13) I am excited about the opportunities and many challenges that this position would
+        provide. (14) Thank you for your consideration, and I look forward to hearing
+        from you.\n
+        \n
+        Sincerely,\n
+        \n
+        Patrick Jones\n
+        \n
+        Patrick Jones\n
+        1219 Cedar Lane\n
+        Manassas, VA 20109
+    </string>
+    <string name="readingGuideLinesLabel">Reading Guidelines</string>
+    <string formatted="false" name="readingGuidelines_info">
+        The Language Arts Reading Test is the shortest of the GED® Tests. It has 40 multiple choice
+        questions that measure ability to comprehend and
+        interpret workplace and academic reading selections and to apply those interpretations to
+        new contexts. The questions ask you to understand,
+        analyze, and synthesize information that you are given in the reading selections.\n
+        \n
+        Literary texts make up 75% of the Language Arts Reading Test and include at least one
+        selection from each of the following areas:\n
+        ● Poetry\n
+        ● Drama\n
+        ● Prose fiction before 1920\n
+        ● Prose fiction before 1920 and 1960\n
+        ● Prose fiction after 1960\n
+        \n
+        Nonfiction texts make up the remaining 25% of the test and include two nonfiction selections
+        from any two of the following categories:\n
+        ● Nonfiction prose\n
+        ● Critical review of visual and performing arts\n
+        ● Workplace and community documents\n
+        \n
+        The length of the reading passages ranges from 200 to 400 words. Poetry selections are from
+        8 to 25 lines. A purpose question appears in
+        bold type before each reading selection. That question is not to be answered, but is
+        designed to help you focus and give purpose for reading
+        the text. Each reading selection is followed by 4 to 8 questions.
+    </string>
+    <string name="readinginfo1_label">Excerpt</string>
+    <string name="readinginfo1_data">
+        How Shall Employees Conduct Themselves?\n
+        \n
+        Guidelines for Conducting Business with Those outside Our Company\n
+        \n
+        Our employees are the most effective advertisement of our values, beliefs, and abilities.
+        Always keep in mind that when you are acting in your capacity as our
+        employee, you are contributing materially to the public image and the ultimate success of
+        this company.\n
+        \n
+        (5) Gifts for Influence\n
+        \n
+        No payment or gift of money, goods, or services should be given or received to influence
+        government or business decisions. Accurate and complete records for all
+        accounts will be strictly monitored for everyone\'s protection.\n
+        \n
+        If it becomes apparent to you in the course of the performance of your business
+        responsibilities that a (10) payment of some kind is expected by your business
+        associate, please contact your division president.\n
+        \n
+        Conflict of Interest\n
+        \n
+        A conflict of interest can be described as a situation where a person has a vested interest
+        in two areas of the business world that may give him or her an unfair
+        advantage in business dealings. Our employees should be sensitive to any relationship that
+        creates such a relationship &#8211;&#8211; or even (15) creates the appearance of such
+        a relationship.\n
+        \n
+        Keep these rules in mind:\n
+        ● Throughout your employment period, be vigilant about potential conflicts of interest
+        between this company\'s interests and your personal or immediate family\'s interests.\n
+        ● Don\'t use your position with this company to obtain a personal benefit of any kind.\n
+        (20) ● Avoid any action or relationship that creates, or even creates the appearance of, a
+        conflict of interest. For example, having an interest in a nonpublic company that
+        competes or does business with our company or any of its affiliates might create the
+        appearance of a conflict of interest and might prompt accusations and / or an
+        investigations.\n
+        \n
+        Disclosure\n
+        \n
+        (25) This company respects your privacy, as well as your right to conduct your personal
+        affairs without interference; however, you must make prompt, complete, and continuing
+        disclosure of all facts relating to any factual or potential conflict of interest.\n
+        \n
+        Investigations\n
+        \n
+        Inquiries or investigations may be undertaken at this company\'s direction by its attorneys,
+        (30) investigators, internal auditors, or independent public accountants. Employees
+        should regard this vigilance as the company\'s commitment not only to fair competition but
+        also to the protection of its employees. Your cooperation is needed for your protection
+        as well as that of this company, and it is a condition of your employment.\n
+        \n
+        This exceprt is a composite of information from several business documents.
+    </string>
+
+
+    <!--=========================================================================================================================
+                              ___              _          _     ___   _               _   _
+                             / __|  ___   __  (_)  __ _  | |   / __| | |_   _  _   __| | (_)  ___   ___
+                             \__ \ / _ \ / _| | | / _` | | |   \__ \ |  _| | || | / _` | | | / -_) (_-<
+                             |___/ \___/ \__| |_| \__,_| |_|   |___/  \__|  \_,_| \__,_| |_| \___| /__/
+
+    ===========================================================================================================================-->
+    <string name="socialGuideLinesLabel">Social Studies Guidelines</string>
+    <string formatted="false" name="socialGuidelines_info">
+        The GED® Social Studies Test contains 50 multiple choice questions from the following
+        content areas:\n
+        ● US History: 25%\n
+        ● World History: 15%\n
+        ● Geography: 15%\n
+        ● Civics and Government: 25%\n
+        ● Economics: 20%\n
+        \n
+        Most of the questions are based on written texts of one or more paragraphs, maps, diagrams,
+        charts, tables, photographs, and cartoons. A total
+        of 70 minutes is allowed to complete the GED® Social Studies Test.
+    </string>
+    <string name="socinfo1_label">Question Information</string>
+    <string name="socinfo1_data">
+        The history of the world is filled with stories of people migrating. Migration is the
+        movement of people from one place to another as they seek a new home. Famine,
+        overpopulation,
+        limited resources, war, and religious and political persecution "push" immigrants to new
+        places.\n
+        \n
+        Millions have migrated to North America since the 1600s. Spanish, French, English, and Dutch
+        immigrants were the first European settlers to establish permanent colonies.
+        They settled in lands originally populated by people from Asia. Many people from Africa were
+        driven from their homes at this time to be enslaved to work in colonies in the
+        Americas.\n
+        \n
+        Throughout the 1800s, immigrants looking for employment came to North America from Japan,
+        China, and southeastern Europe. In the 1970s and 1980s, Southeast Asians, Latin
+        Americans, and Caribbeans migrated to North America. Many of these immigrants fled from
+        war-torn countries, political persecution, and economic difficulties.
+    </string>
+
+
+    <!--=========================================================================================================================
+                        _     _                   _       ___                      _
+                       /_\   | |__   ___   _  _  | |_    |   \   ___  __ __  ___  | |  ___   _ __   ___   _ _   ___
+                      / _ \  | '_ \ / _ \ | || | |  _|   | |) | / -_) \ V / / -_) | | / _ \ | '_ \ / -_) | '_| (_-<
+                     /_/ \_\ |_.__/ \___/  \_,_|  \__|   |___/  \___|  \_/  \___| |_| \___/ | .__/ \___| |_|   /__/
+
+     ===========================================================================================================================-->
+
+    <string name="aboutdevs_label">About Developers</string>
+    <string name="class_label">Class:</string>
+    <string name="class_data">ITP 298 - Software Capstone</string>
+    <string name="instructor_label">Instructor:</string>
+    <string name="instructor_data">Nasser Maksoud</string>
+    <string name="college_label">College:</string>
+    <string name="college_data">Mountain Empire Community College</string>
+    <string name="developers_label">Developers:</string>
+    <string name="bryan_label">Bryan Smith</string>
+    <string name="mike_label">Mike Hiller</string>
+    <string name="michael_label">Michael Meade</string>
+    <string name="jarrod_label">Jarrod Adams</string>
+
+
+    <!--=========================================================================================================================
+                                      ___                   _          ___     _____          _
+                                     | _ \  ___   __ _   __| |  _  _  |__ \   |_   _|  __ _  | |__
+                                     |   / / -_) / _` | / _` | | || |   /_/     | |   / _` | | '_ \
+                                     |_|_\ \___| \__,_| \__,_|  \_, |  (_)      |_|   \__,_| |_.__/
+                                                                |__/
+    ===========================================================================================================================-->
+    <string name="readytab_content_1">1. Visit one of our class sites in Lee, Scott or Wise County
+        or the city of Norton, VA\n to take an assessment in reading and math.
+    </string>
+    <string name="readytab_content_2">2. Get your results and make your plan</string>
+    <string name="readytab_content_3">3. Study what YOU need</string>
+    <string name="readytab_content_4">4. Take the official GED® Practice Test</string>
+    <string name="readytab_content_title">Ready?</string>
+    <string name="readytab_header">Assessment</string>
+    <string name="readytab_content_info">When you have passing scores, call %1$s and set up a
+        practice test.
+    </string>
+
+
+    <!--=========================================================================================================================
+                                              ___         _     ___     _____          _
+                                             / __|  ___  | |_  |__ \   |_   _|  __ _  | |__
+                                             \__ \ / -_) |  _|   /_/     | |   / _` | | '_ \
+                                             |___/ \___|  \__|  (_)      |_|   \__,_| |_.__/
+
+    ===========================================================================================================================-->
+    <string name="settab_content_1">Save $58 – take the GED® Exam free with passing scores on the
+        Official GED® Practice Test!
+    </string>
+    <string name="settab_content_2">Experience the testing environment</string>
+    <string name="settab_content_3">See difficulty level first hand</string>
+    <string name="settab_content_4">Practice testing within time limits</string>
+    <string name="settab_content_5">Ask Questions for anything you don’t understand</string>
+    <string name="settab_content_title">Set?</string>
+    <string name="settab_header">Official GED® Practice Test</string>
+    <string name="settab_content_info">The official practice test is given on demand at any of our
+        class sites. Call %1$s to schedule or talk to the adult education instructor at the site.
+    </string>
+
+
+    <!--=========================================================================================================================
+                                                   ___         _     _____          _
+                                                  / __|  ___  | |   |_   _|  __ _  | |__
+                                                 | (_ | / _ \ |_|     | |   / _` | | '_ \
+                                                  \___| \___/ (_)     |_|   \__,_| |_.__/
+
+    ===========================================================================================================================-->
+    <string name="gotab_content_1">Take any of the five subtests one at a time or the entire exam
+    </string>
+    <string name="gotab_content_2">Must be 18 or older, not attending public school, and
+        pre-registered for the test
+    </string>
+    <string name="gotab_content_3">Only 3 attempts per year</string>
+    <string name="gotab_content_title">Go!</string>
+    <string name="gotab_header">GED® Exam</string>
+    <string name="find_ged_center">Finding a GED® Testing Center</string>
+    <string name="gotab_content_info">Call %1$s to register and to get your access code.</string>
+
+
+    <!--=========================================================================================================================
+                      _                        _     _                  _             _            _
+                     | |     ___   __   __ _  | |_  (_)  ___   _ _     | |     __ _  | |__   ___  | |  ___
+                     | |__  / _ \ / _| / _` | |  _| | | / _ \ | ' \    | |__  / _` | | '_ \ / -_) | | (_-<
+                     |____| \___/ \__| \__,_|  \__| |_| \___/ |_||_|   |____| \__,_| |_.__/ \___| |_| /__/
+
+    ===========================================================================================================================-->
+    <string name="map_view_directions">
+        <u>View Map and Directions</u>
+    </string>
+    <string name="jonesville_title">Jonesville</string>
+    <string name="jonesville_place">Jonesville Adult Learning Center</string>
+    <string name="jonesville_address">143 School Board Place, Jonesville, VA 24263</string>
+    <string name="jonesville_phone">346&#8211;3251</string>
+    <string name="jonesville_time">T &amp; Th: 9&#8211;12</string>
+    <string name="jonesville_instructors">Kate Boyer &amp; Debra Watson</string>
+    <string name="pennington_gap_title">Pennington Gap</string>
+    <string name="pennington_gap_place">Lee Community Center</string>
+    <string name="pennington_gap_address">41657 West Morgan Ave, Pennington Gap, VA 24277</string>
+    <string name="pennington_gap_phone">877&#8211;722&#8211;3243</string>
+    <string name="pennington_gap_time">T &amp; Th: 5:30&#8211;8:30pm</string>
+    <string name="pennington_gap_instructors">Ernestine Wright &amp; Patsy Pennington</string>
+    <string name="rose_hill_title">Rose Hill</string>
+    <string name="rose_hill_place">Rose Hill Elementary</string>
+    <string name="rose_hill_address">Rt1, Box 136, Rose Hill, VA 24281</string>
+    <string name="rose_hill_phone">276&#8211;445&#8211;4094</string>
+    <string name="rose_hill_time">T &amp; Th: 5:30&#8211;8:30pm</string>
+    <string name="rose_hill_instructors">Wade Wilson &amp; Phillis Brown</string>
+    <string name="coeburn_title">Coeburn</string>
+    <string name="coeburn_place">John Vandiver Community Center</string>
+    <string name="coeburn_address">117 Vandiver Drive, Coeburn, VA 24230</string>
+    <string name="coeburn_phone">276&#8211;395&#8211;6104</string>
+    <string name="coeburn_time">M &amp; W: 5:30&#8211;8:30pm</string>
+    <string name="coeburn_instructors">Judy Samples</string>
+    <string name="duffield_title">Duffield</string>
+    <string name="duffield_place">Pioneer Center</string>
+    <string name="duffield_address">225 Boone Trl Rd, Duffield, VA 24244</string>
+    <string name="duffield_phone">276&#8211;431&#8211;7226</string>
+    <string name="duffield_time">T &amp; Th: Noon &#8211; 3pm</string>
+    <string name="duffield_instructors">Jane Bowlin &amp; Marie Hamilton</string>
+    <string name="gate_city_title">Gate City</string>
+    <string name="gate_city_place">Regional Adult Ed Center</string>
+    <string name="gate_city_address">1490 Bristol Hwy, Gate City, VA 24251</string>
+    <string name="gate_city_phone">276&#8211;386&#8211;2433</string>
+    <string name="gate_city_time">MW: 10am&#8211;2pm\nT &amp; Th: 5&#8211;8pm</string>
+    <string name="gate_city_instructors">Jan Stallard &amp; Tony Gardner</string>
+    <string name="st_paul_title">St Paul</string>
+    <string name="st_paul_place">First Baptist Church</string>
+    <string name="st_paul_address">3103 Deacon Dr, Saint Paul, VA 24283</string>
+    <string name="st_paul_phone">276&#8211;762&#8211;9440</string>
+    <string name="st_paul_time">M &amp; W: 9am &#8211; 12pm</string>
+    <string name="st_paul_instructors">Glenna McReynolds &amp; Joan Austin</string>
+    <string name="appalachia_title">Appalachia</string>
+    <string name="appalachia_place">Appalachia High School</string>
+    <string name="appalachia_address">205 Lee Street, Appalachia, VA 24216</string>
+    <string name="appalachia_phone">877&#8211;722&#8211;3243</string>
+    <string name="appalachia_time">TBA</string>
+    <string name="appalachia_instructors">Judy Samples</string>
+    <string name="big_stone_gap_title">Big Stone Gap</string>
+    <string name="big_stone_gap_place">Lonesome Pine Office on Youth</string>
+    <string name="big_stone_gap_address">219 Wood Avenue East, Big Stone Gap, VA 24219&#8211;2823
+    </string>
+    <string name="big_stone_gap_time">T &amp; Th: 5:30&#8211;8:30pm</string>
+    <string name="big_stone_gap_instructors">Kate Boyer &amp; Marie Hamilton</string>
+    <string name="norton_title">Norton</string>
+    <string name="norton_place">JI Burton High School AE Center</string>
+    <string name="norton_address">109 Eleventh Street, Norton, VA 24273</string>
+    <string name="norton_phone">877&#8211;722&#8211;3243</string>
+    <string name="norton_time">T &amp; Th: 12:30&#8211;3:30pm</string>
+    <string name="norton_instructors">Judy Samples</string>
+    <string name="pound_title">Pound</string>
+    <string name="pound_place">Pound Town Hall</string>
+    <string name="pound_address">8422 North River Road, Pound, VA 24279</string>
+    <string name="pound_phone">276&#8211;796&#8211;5188</string>
+    <string name="pound_time">M &amp; W: 5&#8211;8pm</string>
+    <string name="pound_instructors">Chris Evans</string>
+    <string name="wise_title">Wise</string>
+    <string name="wise_place">Wise Adult Learning Center</string>
+    <string name="wise_address">515 Hurricane Road, Bldg J,Wise, VA 24293</string>
+    <string name="wise_phone">276&#8211;328&#8211;7149</string>
+    <string name="wise_time">Thursday: 5:30 &#8211; 8:30pm</string>
+    <string name="wise_instructors">Robbie Collins</string>
+    <string name="distance_title">Distance Learning</string>
+    <string name="distance_place">GED® Online</string>
+    <string name="distance_address"/>
+    <string name="distance_phone">877&#8211;722&#8211;3243 or 386&#8211;2433</string>
+    <string name="distance_time">M&#8211;F: 9am &#8211; 3pm</string>
+    <string name="distance_instructors">Jan Stallard &amp; Liz Wood</string>
+    <string name="locations_title">Free Class Locations</string>
+    <string name="literacy_guidelines_label">Literacy Guidelines</string>
+
+
+    <!--=========================================================================================================================
+                                              _____   _               ___   ___   ___
+                                             |_   _| | |_    ___     / __| | __| |   \
+                                               | |   | ' \  / -_)   | (_ | | _|  | |) |
+                                               |_|   |_||_| \___|    \___| |___| |___/
+
+    ===========================================================================================================================-->
+    <string name="whatGedLabel">What are the GED® Tests?</string>
+    <string name="whatged_info">
+        The Tests of General Educational Development (GED®) are recognized internationally. They are
+        designed to measure major academic skills and knowledge
+        in the core content areas that are learned during the four years of high school. The GED®
+        credential certifies that an adult who has passed the five
+        tests of the GED® has mastered subject matter, knowledge, and skills associated with high
+        school completion. The GED® Tests battery includes a test in
+        each of the following subject area tests:\n\n
+        ● Language Arts, Writing\n
+        ● Language Arts, Reading\n
+        ● Social Studies\n
+        ● Science\n
+        ● Mathematics\n
+    </string>
+    <string name="howGedLabel">How are the GED® Tests Scored?</string>
+    <string name="howGed_info">
+        The GED Testing Service® has established that a passing score on the GED® Test is a total
+        score of 2250 for the five-test battery.
+        This is an average of 450 with no single test score falling below 410. If any test score
+        falls below 410, the test for that subject must be retaken
+        to achieve a passing score.
+    </string>
+    <string name="newGedLabel">A New GED® Test is Coming in 2014</string>
+    <string name="newGed_info">
+        The GED® Tests battery is revised and updated about every ten years. On January 1, 2014, a
+        new GED® Test is scheduled to replace the current version.
+        This new test will be vastly different from today’s test. It will be computer based with no
+        pencil and paper version available, and the
+        content of the test will be even more challenging.\n
+        \n
+        The bad news about the updated test is that any incomplete scores on the current version of
+        the test will be discarded. That means that
+        folks who took parts of the GED® test before 2014, but did not complete all the subjects and
+        those who took the entire test but had some
+        failing (below 410) scores, will be required to start all over again with the new test. The
+        bottom line is this: If you do not obtain a
+        GED® credential before Jan 1, 2014, you will be required to take the entire battery of the
+        2014 test.
+    </string>
+</resources>

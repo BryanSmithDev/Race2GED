@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@color/secondary_color"
+              android:orientation="vertical"
+              android:padding="4dp">
+
+
+    <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/popup_title_background">
+
+
+        <TextView
+                android:id="@+id/titleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/popup_title_background"
+                android:padding="10dp"
+                android:text="@string/wise_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"/>
+
+
+        <FrameLayout
+                android:id="@+id/closeFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="5dp">
+
+
+            <ImageButton
+                    android:id="@+id/closeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@null"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/window_close"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp"
+            android:minWidth="150dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/background_color">
+
+
+        <TextView
+                android:id="@+id/place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wise_place"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/content_color"/>
+
+
+        <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:maxWidth="200dp"
+                android:text="@string/wise_address"
+                android:textColor="@android:color/black"/>
+
+
+        <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/wise_phone"
+                android:textColor="@android:color/black"/>
+
+
+        <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/wise_time"
+                android:textColor="@android:color/black"/>
+
+
+        <TextView
+                android:id="@+id/instructors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:maxWidth="200dp"
+                android:text="@string/wise_instructors"
+                android:textColor="@android:color/black"/>
+
+
+        <Button
+                android:id="@+id/dirButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:autoLink="web|map"
+                android:background="@android:color/transparent"
+                android:onClick="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Pennington+Gap+Middle+School+pennington+gap,+va&amp;aq=&amp;sll=36.884014,-82.792969&amp;sspn=0.354242,0.837021&amp;ie=UTF8&amp;hq=Pennington+Gap+Middle+School&amp;hnear=Pennington+Gap,+Lee,+Virginia&amp;ll=36.762937,-83.016279&amp;spn=0.011517,0.026157&amp;z=16&amp;iwloc=A"
+                android:text="@string/map_view_directions"
+                android:textColor="#2481eb"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+                                                                                                              
+         .8.          8 888888888o.   8 888888888o.            .8.          `8.`8888.      ,8'    d888888o.   
+        .888.         8 8888    `88.  8 8888    `88.          .888.          `8.`8888.    ,8'   .`8888:' `88. 
+       :88888.        8 8888     `88  8 8888     `88         :88888.          `8.`8888.  ,8'    8.`8888.   Y8 
+      . `88888.       8 8888     ,88  8 8888     ,88        . `88888.          `8.`8888.,8'     `8.`8888.     
+     .8. `88888.      8 8888.   ,88'  8 8888.   ,88'       .8. `88888.          `8.`88888'       `8.`8888.    
+    .8`8. `88888.     8 888888888P'   8 888888888P'       .8`8. `88888.          `8. 8888         `8.`8888.   
+   .8' `8. `88888.    8 8888`8b       8 8888`8b          .8' `8. `88888.          `8 8888          `8.`8888.  
+  .8'   `8. `88888.   8 8888 `8b.     8 8888 `8b.       .8'   `8. `88888.          8 8888      8b   `8.`8888. 
+ .888888888. `88888.  8 8888   `8b.   8 8888   `8b.    .888888888. `88888.         8 8888      `8b.  ;8.`8888 
+.8'       `8. `88888. 8 8888     `88. 8 8888     `88. .8'       `8. `88888.        8 8888       `Y8888P ,88P' 
+
+ -->
+
+<resources>
+
+    <string-array name="math_items">
+        <item>Math Guidelines</item>
+        <item>Alternate-Format Guidelines</item>
+        <item>Alternate-Format Practice</item>
+        <item>Multiple Choice Practice</item>
+        <item>Online Practice Test</item>
+    </string-array>
+
+    <string-array name="readwrite_items">
+        <item>Reading Guidelines</item>
+        <item>Writing Guidelines</item>
+        <item>Reading Multiple Choice Practice</item>
+        <item>Writing Multiple Choice Practice</item>
+        <item>Online Reading Practice Test</item>
+        <item>Online Writing Practice Test Part I</item>
+        <item>Online Writing Practice Test Part II</item>
+    </string-array>
+
+    <string-array name="science_items">
+        <item>Science Guidelines</item>
+        <item>Multiple Choice Practice</item>
+        <item>Online Practice Test</item>
+    </string-array>
+
+    <string-array name="socstudies_items">
+        <item>Social Studies Guidelines</item>
+        <item>Multiple Choice Practice</item>
+        <item>Online Practice Test</item>
+    </string-array>
+    <string-array name="theged_items">
+        <item>What is the GED® Test?</item>
+        <item>How is the GED® Test Scored?</item>
+        <item>New GED® Test in 2014</item>
+    </string-array>
+    <string-array name="videosAndTestimonials">
+        <item>Instuctional Video</item>
+        <item>Adult Education Instruction</item>
+        <item>Channie\'s Testimonial</item>
+        <item>Travis\' Testimonial</item>
+        <item>Tammy\'s Testimonial</item>
+        <item>Meet Rebecca</item>
+        <item>Meet Sandy</item>
+        <item>Meet Jan</item>
+        <item>Meet Liz</item>
+        <item>Meet Ramsey</item>
+        <item>Meet Tony</item>
+    </string-array>
+    <string-array name="freeresources_items">
+        <item>Khan Academy</item>
+        <item>Marshall Adult Education Student Lessons</item>
+        <item>VALRC ESOL Resources</item>
+        <item>GEDMath.com</item>
+        <item>GEDScience.com</item>
+        <item>GEDReading.com</item>
+        <item>GEDWriting.com</item>
+        <item>GEDSocialStudies.com</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="edu.mecc.race2ged"
+          android:versionCode="20"
+          android:versionName="1.8.0">
+
+    <uses-sdk
+            android:minSdkVersion="4"
+            android:targetSdkVersion="10"/>
+
+    <application
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:allowBackup="true">
+        <activity
+                android:name=".SplashScreen"
+                android:label="@string/app_name"
+                android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".Race2GEDActivity"
+                android:label="@string/app_name"
+                android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity
+                android:name=".FreeResourcesActivity"
+                android:label="@string/freeresources_label"
+                android:configChanges="orientation|keyboardHidden">
+        </activity>
+
+        <activity
+                android:name=".SourcesActivity"
+                android:label="@string/sources_label">
+        </activity>
+
+        <activity
+                android:name=".FeedBackActivity"
+                android:label="@string/feedback_label">
+        </activity>
+
+        <activity
+                android:name=".VideoTestimonialActivity"
+                android:label="@string/vidtest_Label"
+                android:configChanges="orientation|keyboardHidden">
+        </activity>
+
+        <activity
+                android:name=".TheGedActivity"
+                android:label="@string/theGedLabel">
+        </activity>
+
+        <activity
+                android:name=".WhatGedActivity"
+                android:label="@string/whatGedLabel">
+        </activity>
+
+        <activity
+                android:name=".HowGedActivity"
+                android:label="@string/howGedLabel">
+        </activity>
+
+        <activity
+                android:name=".NewGedActivity"
+                android:label="@string/newGedLabel">
+        </activity>
+
+        <activity
+                android:name=".MathGuidelinesActivity"
+                android:label="@string/mathGuidelinesLabel">
+        </activity>
+
+        <activity
+                android:name=".MathAltGuidelinesActivity"
+                android:label="@string/mathAltGuidelinesLabel"
+                >
+        </activity>
+
+        <activity
+                android:name=".MathActivity"
+                android:label="@string/math_label"
+                android:configChanges="orientation|keyboardHidden">
+        </activity>
+
+        <activity
+                android:name=".MathMultipleActivity"
+                android:label="@string/math_label"
+                android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity
+                android:name=".MathAltActivity"
+                android:label="@string/math_label"
+                android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity
+                android:name=".ReadWriteActivity"
+                android:label="@string/readwrite_label">
+        </activity>
+
+        <activity
+                android:name=".ReadingGuidelinesActivity"
+                android:label="@string/readingGuideLinesLabel">
+        </activity>
+
+        <activity
+                android:name=".ReadingMultiActivity"
+                android:label="@string/readwrite_label"
+                android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity
+                android:name=".ReadingInfo1Activity"
+                android:label="@string/readinginfo1_label">
+        </activity>
+
+        <activity
+                android:name=".WritingMultiActivity"
+                android:label="@string/readwrite_label"
+                android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity
+                android:name=".WritingGuidelinesActivity"
+                android:label="@string/writingGuideLinesLabel">
+        </activity>
+
+        <activity
+                android:name=".LoAActivity"
+                android:label="@string/loa_label">
+        </activity>
+
+        <activity
+                android:name=".ScienceActivity"
+                android:label="@string/science_label">
+        </activity>
+
+        <activity
+                android:name=".ScienceGuidelinesActivity"
+                android:label="@string/scienceGuidelinesLabel">
+        </activity>
+
+        <activity
+                android:name=".ScienceMultiActivity"
+                android:label="@string/science_label"
+                android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity
+                android:name=".SocialStudiesActivity"
+                android:label="@string/socialstudies_label">
+        </activity>
+
+        <activity
+                android:name=".SocialStudiesGuidelinesActivity"
+                android:label="@string/socialGuideLinesLabel">
+        </activity>
+
+        <activity
+                android:name=".SocialStudiesMultiActivity"
+                android:label="@string/socialstudies_label"
+                android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+        <activity
+                android:name=".SocInfo1Activity"
+                android:label="@string/socinfo1_label">
+        </activity>
+
+        <activity
+                android:name=".AboutDevActivity"
+                android:label="@string/aboutdevs_label">
+        </activity>
+
+        <activity
+                android:name=".ReadySetGoActivity"
+                android:label="Ready Set Go"
+                android:configChanges="orientation|keyboardHidden">
+        </activity>
+
+        <activity
+                android:name=".ReadyTab"
+                android:label="@string/readytab_content_title">
+        </activity>
+
+        <activity
+                android:label="@string/settab_content_title"
+                android:name=".SetTab"></activity>
+
+        <activity
+                android:label="@string/gotab_content_title"
+                android:name=".GoTab"
+                android:configChanges="orientation|keyboardHidden"></activity>
+
+        <activity
+                android:label="@string/location_label"
+                android:name=".LocationsActivity"
+                android:configChanges="orientation|keyboardHidden"></activity>
+        <activity
+                android:label="@string/contact_label"
+                android:name=".ContactActivity"
+                android:configChanges="orientation|keyboardHidden"></activity>
+
+    </application>
+
+</manifest>

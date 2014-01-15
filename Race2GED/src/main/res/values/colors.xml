@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+                                                                                                      
+    ,o888888o.        ,o888888o.     8 8888             ,o888888o.     8 888888888o.      d888888o.   
+   8888     `88.   . 8888     `88.   8 8888          . 8888     `88.   8 8888    `88.   .`8888:' `88. 
+,8 8888       `8. ,8 8888       `8b  8 8888         ,8 8888       `8b  8 8888     `88   8.`8888.   Y8 
+88 8888           88 8888        `8b 8 8888         88 8888        `8b 8 8888     ,88   `8.`8888.     
+88 8888           88 8888         88 8 8888         88 8888         88 8 8888.   ,88'    `8.`8888.    
+88 8888           88 8888         88 8 8888         88 8888         88 8 888888888P'      `8.`8888.   
+88 8888           88 8888        ,8P 8 8888         88 8888        ,8P 8 8888`8b           `8.`8888.  
+`8 8888       .8' `8 8888       ,8P  8 8888         `8 8888       ,8P  8 8888 `8b.     8b   `8.`8888. 
+   8888     ,88'   ` 8888     ,88'   8 8888          ` 8888     ,88'   8 8888   `8b.   `8b.  ;8.`8888 
+    `8888888P'        `8888888P'     8 888888888888     `8888888P'     8 8888     `88.  `Y8888P ,88P' 
+
+ -->
+<resources>
+
+    <!-- Main color, used for splash screen background and top banner background -->
+    <color name="primary_color">#135182</color>
+
+    <!--Background color of all screens -->
+    <color name="background_color">#ffffff</color>
+
+    <!-- Used sparingly for contrast with the main color, perfeable shoult be a ligher verion of the primary color -->
+    <color name="secondary_color">#2481eb</color>
+
+    <!-- Text color, color for unpressed buttons -->
+    <color name="content_color">#85b73e</color>
+
+    <!-- Used only in the location popups. Generally should stay #efeee8 -->
+    <color name="popup_title_background">#efeee8</color>
+
+    <!-- Color of list dividers. Generally should stay #dddddd -->
+    <color name="divider_color">#dddddd</color>
+
+    <!-- Color used by footers and copyright statments. Generally should stay a very light grey at #9c9c9c -->
+    <color name="copyright_footer">#9c9c9c</color>
+
+
+</resources>

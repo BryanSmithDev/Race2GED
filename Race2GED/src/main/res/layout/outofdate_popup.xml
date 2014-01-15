@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dialog"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@color/secondary_color"
+              android:orientation="vertical"
+              android:padding="4dp">
+
+
+    <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/popup_title_background">
+
+
+        <TextView
+                android:id="@+id/titleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/popup_title_background"
+                android:padding="10dp"
+                android:text="@string/outdated_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"/>
+
+
+        <FrameLayout
+                android:id="@+id/closeFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp">
+
+
+            <ImageButton
+                    android:id="@+id/closeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@null"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/window_close"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp"
+            android:minWidth="150dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/background_color">
+
+
+        <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:maxWidth="200dp"
+                android:text="@string/outdated_message"
+                android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal" />
+
+
+        <Button
+                android:id="@+id/dirButton"
+                android:layout_width="80dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/default_button"
+                android:text="@android:string/ok"
+                android:textColor="#2481eb"
+                android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
